@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="https://unpkg.com/vue"></script> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css" />
+<title>India Bizforsale</title>
+<link href="style.css" rel="stylesheet" text="text/css">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+</head>
+
+<body>
+      
+<div id= "nav1">
+ <h1><a href="index.html">India Bizforsale</a></h1>
+<ul>
+<li><a href = "index.html">Home</a></li>
+<li id="active"><a href = "sell.html">Sell</a></li>
+<li ><a href = "buy.html">Buy</a></li>
+</ul>
+</div>
+<br>
+<div id="sell">
+<h1>Unique Concept Business in Kids Activity for Sale in Mumbai</h1 >
+<div id="img">
+
+</div>
+</div>
+
+<div id = "img2">
+<img src="img/pic10.jpg">
+<div id="text"> <h1>Business Details</h1> 
+
+
+<p> The Profitable business started in the year 2004 and it operates in 3 leading malls of Mumbai. It is a fully compliant Pvt Ltd Co. The concept is adopted from large format malls overseas. The product is used by parents of small children ensure a comfortable shopping experience. 
+A unique product patented and manufactured in the US. The company is the authorised importer for the same in India. Over the last decade, it has become a recognised brand synonymous with the service with both mall management and clients and has a strong pan India brand presence </p>
+
+</div>
+
+</div>
+<br>
+<br>
+<br>
+
+<div class="container" id="app">
+<btn @button_clicked='SENDMESSAGE'></btn>
+<modal :active='activateModal' @close_modal='close'>
+
+
+    USER DETAILS
+<template slot='section'>
+<div>
+  <form action="/action_page.php">
+    <label for="fname">Name</label><br>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.. " >
+<br>
+    <label for="lname">Email</label><br>
+    <input type="text" id="lname" name="lastname" placeholder="Your email..">
+<br>
+   <label for="ph">Phone</label><br>
+    <input type="text" id="ph" name="phone" placeholder="Your phone..">
+	
+	<br>
+	<label for="add">Address</label><br>
+    <input type="text" id="add" name="address" placeholder="Your address..">
+	<br>
+	
+	<label for="pass">Password</label><br>
+    <input type="text" id="pass" name="password" placeholder="Your password..">
+	<br>
+  <br>
+   
+<a href="contact.html" class="button">Contact Buyer</a>
+</div>
+  </form>
+</div>
+</template>
+
+</modal>
+
+</div>
+
+
+<script src='vue.js'></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

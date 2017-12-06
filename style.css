@@ -1,0 +1,172 @@
+@charset "utf-8";
+
+body{
+	font-family: arial; sans-serif;
+}
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+            
+#nav1{
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+	background: #021079;
+	
+}
+#nav1 h1{
+	opacity: .7;
+	filter: (opacity=70);
+}
+
+
+#nav1 h1{
+	float: left;
+	font-size: 2.5em;
+	margin-left: 5px;
+}
+#nav1 h1 a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+
+#nav1 ul{
+	float: right;
+	margin-right: 5px;
+	
+}
+
+#nav1 ul li{
+	display: inline-block;
+	line-style-type: none;
+}
+
+
+#nav1 ul li a{
+text-decoration: none;
+color: white;
+padding: 25px;	
+	
+}
+
+#nav1 ul li:hover{
+	background: #2eded7;
+}
+
+ #nav1 ul li li{
+	 background: #29B59F;
+	 display: block;
+ }
+ #nav1 ul li li a{
+	 padding
+ }
+
+#active{
+	background:  #2eded7;
+}
+	
+#main-content{
+width: 100%;
+height: 660px;
+background: url(img/pic6.jpg)    no-repeat;
+background-size:cover;
+text-align: center;
+color: white;
+line-height: 40px;
+text-shadow: 0px 2px 4px rgba(34,62,66,.75);
+}	
+
+#service{
+background: #60de2e;
+width: 170px;
+height: 55px;	
+line-height: 60px;
+margin-left: auto;
+margin-right: auto;	
+border-radius: 5px;
+color: black;
+font-weight: 100;
+}	
+#service:hover{
+	 box-shadow: 1px 5px 2px 2px #f1f5f0;
+	 transition: all ease-in-out 0.10s;
+}
+
+#service a{
+	color: black;
+	text-decoration: none;
+	
+}
+
+#img{
+	width: 85%;
+	height:370px;
+	background:url(img/pic5.jpg);
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#sell h1{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+}
+#img2 img{
+	width: 400px;
+	height: 400px;
+	margin-left: 70px;
+	margin-top: 5px;
+	border-radius: 5px;
+	float: left;
+	
+}
+#text{
+	float: right;
+	width: 500px;
+	
+	text-align: left;
+	margin-left: 10px;
+	margin-right: 20px;
+	
+}
+#text p{
+	font-size: 20px;
+}
+
+#text1{
+	float: right;
+	width: 500px;
+	
+	text-align: left;
+	margin-left: 10px;
+	margin-right: 20px;
+	
+}
+#text1 p{
+	font-size: 15px;
+}
+
+#text button{
+    background-color: #3c89e0; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 92px;
+    cursor: pointer;
+}
+
+
+
+
+
+
